@@ -1,0 +1,70 @@
+.flex {
+    margin-bottom: 100px;
+}
+.flex > div {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.flex div div {
+    width: 23%;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.flex div div:hover p {
+    left: 0;
+    opacity: 1;
+}
+.flex div div:hover img {
+    filter: brightness(1);
+}
+.flex div div img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: brightness(0.7);
+    transition: all 0.3s ease-in;
+}
+.flex div div h2 {
+    margin-block: 15px 6px;
+    font-size: 14px;
+}
+.flex div div p {
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+    left: -1000%;
+    opacity: 0;
+    bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0 0 15px 15px;
+}
+.flex div div span {
+    position: absolute;
+    top: 41px;
+    right: 0;
+    background-color: rgba(133, 1, 1, 0.979);
+    color: #fff;
+    padding: 5px;
+}
+.product-btn {
+    display: block;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
