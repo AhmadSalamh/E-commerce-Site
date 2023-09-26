@@ -31,23 +31,23 @@ Briefly describe your project and its purpose.
     npm run preview
     This will serve the production build locally for previewing.
 
-Dependencies
+## Dependencies
 
-@reduxjs/toolkit: ^1.9.5
-axios: ^1.4.0
-qs: ^6.11.2
-react: ^18.2.0
-react-dom: ^18.2.0
-react-icons: ^4.11.0
-react-redux: ^8.1.2
-redux-persist: ^6.0.0
+    @reduxjs/toolkit: ^1.9.5
+    axios: ^1.4.0
+    qs: ^6.11.2
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-icons: ^4.11.0
+    react-redux: ^8.1.2
+    redux-persist: ^6.0.0
 
-Dev Dependencies
-@types/react: ^18.2.15
-@types/react-dom: ^18.2.7
-@vitejs/plugin-react: ^4.0.3
-eslint: ^8.45.0
-eslint-plugin-react: ^7.32.2
-eslint-plugin-react-hooks: ^4.6.0
-eslint-plugin-react-refresh: ^0.4.3
-vite: ^4.4.5
+## Dev Dependencies
+    @types/react: ^18.2.15
+    @types/react-dom: ^18.2.7
+    @vitejs/plugin-react: ^4.0.3
+    eslint: ^8.45.0
+    eslint-plugin-react: ^7.32.2
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.3
+    vite: ^4.4.5
