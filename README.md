@@ -33,7 +33,6 @@ To set up the project locally, follow these steps:
     ```
     npm install.
 
-
 ## Configuration
 
 Before running the application, you need to configure the connection to the Strapi backend. Follow these steps:
@@ -46,4 +45,4 @@ Before running the application, you need to configure the connection to the Stra
 ## Usage
 To start the application, run the following command:
     ```
-    npm start
+    npm start.
